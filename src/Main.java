@@ -39,6 +39,7 @@ public class Main {
                 orderCourierDistanceMap.put(orderCourier, calculateDistanceByOrderAndCourier(orderCourier));
             }
         }
+
         while (!orderCourierDistanceMap.isEmpty()) {
             double minTime = Double.MAX_VALUE;
             OrderCourier minOrderCourier = new OrderCourier();

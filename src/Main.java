@@ -93,7 +93,6 @@ public class Main {
         couriers.add(new Courier(48.85, 2.35));
         couriers.add(new Courier(40.71, -74.01));
 
-
         couriers.forEach(x->System.out.println(x.toString()));
 
         HashMap<Order,Courier> orderCourierMap = distributeOrders(orders,couriers);

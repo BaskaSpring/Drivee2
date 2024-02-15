@@ -100,6 +100,5 @@ public class Main {
         for (Map.Entry<Order, Courier> entry : orderCourierMap.entrySet()) {
             System.out.println("Заказ: " + entry.getKey().toString() + ", Курьер: " + entry.getValue().getId());
         }
-
     }
 }
